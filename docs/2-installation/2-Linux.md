@@ -1,14 +1,14 @@
 ## Ubuntu Linux
 
-**Ubuntu and Gentoo minimum set for all instructions**
-
-#### GPG
+#### Installing and running GPG
 
 How to install GPG on linux systems. How to generate your PGP key.
 
-1. [Download GnuPG](https://www.gnupg.org/download/index.html) and all the required libraries listed under it on Terminal.
+1. Open up a terminal window (Ctrl + Alt + T) and type `sudo apt-get install gnupg` this will ask for your password.
 
-2. [Download GPA](https://www.gnupg.org/download/index.html) and run it.
+2. Once that has run, type `sudo apt-get install gpa`
+
+3. Now run GPA from your installs. 
 
 3. Create your Key pair for the email account you will use to interact with guld.email. Set an expiration date for the key.
 
